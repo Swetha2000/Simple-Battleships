@@ -1,0 +1,14 @@
+SIMPLE BATTLESHIPS – STRATEGIC SEARCH
+
+The third strategy which is a Strategic Search is implemented using Diamond Search Algorithm.
+The Diamond Search algorithm becomes more effective compared to the remaining two strategies as the search mechanism used here is diamond search point pattern.
+The algorithm for the diamond search pattern runs as follows:
+1.	Starts with searching the location of the ship at the centre.
+2.	Set step size to 2.
+3.	Search 8 locations around the location (0,0) using diamond search pattern point.
+4.	The location that matches with the input file needs to be considered out of all the points.
+5.	Now set the new origin value with the required location in step 4.
+6.	Set the new step size to s/2.
+7.	Repeat the search procedure to find the new location.
+8.	Select the location that matches with the input file and make it the new origin and repeat the process of diamond search pattern point.
+The Diamond Search Algorithm finds the ships with a smaller number of cells searched compared to the other two search strategies.
